@@ -1,0 +1,38 @@
+{
+  "name": "@alexterliuk/cards-on-table-test",
+  "version": "0.0.1",
+  "description": "Playing cards test",
+  "author": "Alex Terliuk <alex.terliuk@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "type": "module",
+  "homepage": "https://github.com/alexterliuk/cards-on-table-test",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "mocha ./test/**/*.spec.ts"
+  },
+  "keywords": [
+    "playing cards",
+    "cards",
+    "game",
+    "card game"
+  ],
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/assert": "^1.5.3",
+    "@types/mocha": "^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mocha": "^10.2.0",
+    "prettier": "2.2.1",
+    "rollup": "^2.36.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
